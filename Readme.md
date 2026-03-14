@@ -1,70 +1,96 @@
- 💻 Smart Guide  AI Laptop Recommendation System
+# 💻 Smart Guide – AI Laptop Recommendation System
 
- 📌 Project Overview
+## 📌 Project Overview
 
-Smart Guide is an AI-powered laptop recommendation system that helps users choose the best laptop based on their preferences. The system asks users about their budget, preferred brand, processor, RAM, storage, and graphics, then uses a machine learning model to recommend suitable laptops.
+Smart Guide is an AI-powered laptop recommendation system that helps users choose the most suitable laptop based on their preferences. The system collects user inputs such as budget, brand, processor, RAM, storage, and GPU requirements, then recommends laptops that closely match these preferences.
 
- 🚀 Features
+The recommendation engine uses a **Nearest Neighbors machine learning algorithm** to compare user inputs with laptop specifications stored in the dataset.
 
-* AI-based laptop recommendations
-* User-friendly web interface built with Streamlit
-* Machine learning model using Nearest Neighbors
-* Filters laptops based on user preferences
-* Displays top recommended laptops
+---
 
- 🧠 Technologies Used
+## 🌐 Live Application
 
-* Python
-* Streamlit
-* Pandas
-* Scikit-learn
-* Machine Learning (Nearest Neighbors Algorithm)
+You can try the deployed application here:
 
- ⚙️ How It Works
+🔗 https://smart-guide-ai-mounica.streamlit.app
 
-1. User enters laptop preferences.
-2. System encodes categorical features.
-3. A Nearest Neighbors model compares user input with laptop dataset.
-4. The system recommends the closest matching laptops.
+---
 
- 📂 Project Structure
+## ✨ Features
+
+* AI-based laptop recommendation system
+* Personalized suggestions based on user preferences
+* Interactive web interface built using Streamlit
+* Machine learning model using the Nearest Neighbors algorithm
+* Displays top laptop recommendations with specifications and price
+
+---
+
+## 🧠 Technologies Used
+
+* **Python**
+* **Streamlit**
+* **Pandas**
+* **Scikit-learn**
+* **Machine Learning (Nearest Neighbors Algorithm)**
+* **Git & GitHub**
+* **Streamlit Cloud (Deployment)**
+
+---
+
+## 🏗 System Architecture
+
+User Input → Streamlit Interface → Data Processing → Machine Learning Model → Laptop Recommendation Output
+
+---
+
+## 📂 Project Structure
 
 ```
-smart-guide/
+SMART-GUIDE-AI
 │
-├── smart_guide_app.py
-├── laptop_pred.csv
-├── requirements.txt
+├── smart_guide_app.py        # Streamlit application
+├── laptop_pred.csv           # Laptop dataset
+├── data-cleaning.ipynb       # Data preprocessing notebook
+├── requirements.txt          # Project dependencies
 └── README.md
 ```
 
- ▶️ Running the Project
+---
 
-Install dependencies:
+## ▶️ Running the Project Locally
+
+### 1. Install dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-Run the application:
+### 2. Run the application
 
 ```
 streamlit run smart_guide_app.py
 ```
 
-Open in browser:
+### 3. Open in browser
 
 ```
 http://localhost:8501
 ```
 
- 🔮 Future Improvements
+---
 
-* Add mobile and other gadget recommendations
-* Include laptop images
-* Deploy as a public web application
-* Integrate real-time product data
+## 🔮 Future Improvements
 
- 👩‍💻 Author
+* Add recommendations for mobile phones and other gadgets
+* Integrate real-time e-commerce product data
+* Add laptop images and comparison features
+* Improve recommendation accuracy using advanced ML models
 
-Developed by Rampilla Mounica Siva Sai as part of an AI/ML academic project.
+---
+
+## 👩‍💻 Author
+
+**Rampilla Mounica Siva Sai**
+B.Tech – Artificial Intelligence and Machine Learning
+UCEK – JNTUK
