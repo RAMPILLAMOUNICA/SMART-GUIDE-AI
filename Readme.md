@@ -29,7 +29,7 @@ Smart Guide is an AI-powered laptop recommendation system that helps users choos
 
  📂 Project Structure
 
-
+```
 smart-guide/
 │
 ├── smart_guide_app.py
